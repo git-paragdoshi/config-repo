@@ -7,18 +7,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
       
 foo: from-default
-message: Hi there!
-
-security:
- basic:
-  enabled: false
-
-management:
-  security:
-    enabled: false
-  cloudfoundry:
-    enabled: true
-    skip-ssl-validation: true
  
 ---
 spring:
